@@ -36,6 +36,7 @@ Partial Class PlantationForm
         Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.SuspendLayout()
         '
         'Guna2BorderlessForm1
@@ -245,12 +246,34 @@ Partial Class PlantationForm
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Year Planted : "
         '
+        'Guna2GradientButton3
+        '
+        Me.Guna2GradientButton3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton3.BorderColor = System.Drawing.Color.White
+        Me.Guna2GradientButton3.BorderRadius = 8
+        Me.Guna2GradientButton3.BorderThickness = 1
+        Me.Guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton3.FillColor = System.Drawing.Color.Chartreuse
+        Me.Guna2GradientButton3.FillColor2 = System.Drawing.Color.Green
+        Me.Guna2GradientButton3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton3.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton3.Location = New System.Drawing.Point(5, 6)
+        Me.Guna2GradientButton3.Name = "Guna2GradientButton3"
+        Me.Guna2GradientButton3.Size = New System.Drawing.Size(225, 34)
+        Me.Guna2GradientButton3.TabIndex = 23
+        Me.Guna2GradientButton3.Text = "Worker Management"
+        '
         'PlantationForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Rubber_Plantation_System.My.Resources.Resources.Untitled_design__2_
         Me.ClientSize = New System.Drawing.Size(829, 493)
+        Me.Controls.Add(Me.Guna2GradientButton3)
         Me.Controls.Add(Me.Guna2TextBox4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Guna2GradientButton2)
@@ -284,4 +307,5 @@ Partial Class PlantationForm
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
 End Class

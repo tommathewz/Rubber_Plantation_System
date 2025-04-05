@@ -83,4 +83,10 @@ Public Class PlantationForm
         Guna2ComboBox1.SelectedIndex = -1 ' Reset ComboBox selection
         Guna2TextBox4.Clear()
     End Sub
+
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+        Dim workerform As New Worker_mgnt()
+        workerform.Show()
+        Me.Hide()
+    End Sub
 End Class
