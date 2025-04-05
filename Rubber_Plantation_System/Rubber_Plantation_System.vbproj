@@ -158,6 +158,12 @@
     <Compile Include="PlantationForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="product_mgnt.Designer.vb">
+      <DependentUpon>product_mgnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="product_mgnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="tapsche.Designer.vb">
       <DependentUpon>tapsche.vb</DependentUpon>
     </Compile>
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PlantationForm.resx">
       <DependentUpon>PlantationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product_mgnt.resx">
+      <DependentUpon>product_mgnt.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tapsche.resx">
       <DependentUpon>tapsche.vb</DependentUpon>

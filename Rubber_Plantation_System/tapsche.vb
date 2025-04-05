@@ -131,4 +131,10 @@ Public Class tapsche
             End Try
         End Using
     End Sub
+
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
+        Dim pro As New product_mgnt()
+        pro.Show()
+        Me.Hide()
+    End Sub
 End Class
