@@ -113,4 +113,15 @@ Public Class product_mgnt
         Guna2TextBox4.Clear()
     End Sub
 
+    Private Sub Guna2GradientButton4_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton4.Click
+        Dim sales As New sales_mgnt()
+        sales.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+        Dim tapp As New tapsche()
+        tapp.Show()
+        Me.Hide()
+    End Sub
 End Class

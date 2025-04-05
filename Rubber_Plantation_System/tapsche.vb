@@ -137,4 +137,10 @@ Public Class tapsche
         pro.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
+        Dim wrkr As New Worker_mgnt()
+        wrkr.Show()
+        Me.Hide()
+    End Sub
 End Class
